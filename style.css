@@ -394,3 +394,162 @@ h5{
 .bottom-1{
     margin:0px 20px;
 }
+
+.bars{
+    display:none;
+}
+
+/* mobile responsive */
+@media screen and (max-width: 975px) {
+    .nav-list {
+      display: none;
+    }
+
+    .bars{
+        display:inline;
+    }
+
+    .ham{
+        width:30px;
+        margin-top:10px;
+    }
+
+    .home-section{
+        flex-direction: column-reverse;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .home-section-p{
+        margin-right:10px;
+    }
+
+    .home-section-h{
+        font-size:30px;
+    }
+
+    .button-blue{
+        margin: auto;
+    }
+
+    .home-section-img{
+        height: 250px;
+        margin:auto; 
+    }
+
+    .quality{
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .quality-div-img{
+        height:250px;
+        margin:auto;
+    }
+
+    .quality-section-h{
+        font-size:30px;
+    }
+
+    .quality-section-content{
+        margin-left:50px;
+    }
+    
+    .support{
+        flex-direction: column-reverse;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .support-section-h{
+        font-size:30px;
+    }
+
+    .support-section-img{
+        height:250px;
+        margin:auto;
+    }
+
+    .services{
+        flex-direction: column;
+        margin-left: 40px;
+    }
+
+    .services-h{
+        font-size:30px;
+        margin:0;
+    }
+
+    .services-p{
+        margin-top:10px;
+    }
+
+    .pricing-section{
+        padding: 0 50px 30px 50px;
+    }
+
+    .pricing-section>h1{
+        font-size: 30px;
+        padding-top:20px;
+    }
+
+    .cards{
+        flex-direction:column;
+    }
+
+    .customer-section-content-h{
+        font-size:30px;
+    }
+    
+    .review-top{
+        flex-direction: column;
+    }
+
+    .review-bottom{
+        flex-direction: column;
+    }
+    
+    .customer-section-p{
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .register-section{
+        flex-direction: column;
+    }
+
+    .register-section-h{
+        font-size:30px;
+    }
+
+    footer{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    nav{
+        margin-left:15px; 
+        margin-right: 15px; 
+    }
+
+    .register-section-btn{
+        margin-right:0;
+    }
+
+    .service-types-top{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .service-types-bottom{
+        display:flex;
+        flex-direction:column;
+    }
+
+    footer>ul{
+        margin:auto;
+        padding:0;
+    }
+  }
